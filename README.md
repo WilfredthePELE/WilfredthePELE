@@ -1,7 +1,6 @@
 - 👋 Hi, I’m @WilfredthePELE
-- 👀 I’m interested in Machine learning applications in Engineering
-- 🌱 I’m currently learning MATLab
-- 💞️ I’m looking to collaborate on an project in regards to the sustanability of energy
+- 👀 I’m am a Machine Learning and Artificial Intelligence Engineer 
+- 💞️ I’m looking to collaborate on an project in regards to the sustanability of energy and application of machine learning and Artificial Intelligence in real world scenarios
 - 😄 Pronoun: He
 - ⚡ Fun fact: i love playing football games
 
