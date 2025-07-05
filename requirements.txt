@@ -1,0 +1,6 @@
+streamlit
+langchain
+langchain-community
+# Include any others your code uses, e.g.:
+# openai
+# pydantic<2
