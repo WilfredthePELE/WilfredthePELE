@@ -33,6 +33,8 @@ def init_session_state():
 
 init_session_state()
 
+st.image("logo.jpg", width=200)
+
 # --- Configuration ---
 GOOGLE_API_KEY = "YOUR_GOOGLE_API_KEY"  # Replace with your key
 
