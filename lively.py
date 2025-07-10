@@ -348,7 +348,7 @@ def ai_chat_interface():
             max-height: 70vh;
             overflow-y: auto;
             width: 200%;
-            padding: 20px;
+            padding: 10px;
             border-radius: 19px;
             background: var(--card);
             margin-bottom: 20px;
@@ -359,7 +359,7 @@ def ai_chat_interface():
             background: linear-gradient(45deg, var(--primary), var(--secondary));
             color: white;
             border-radius: 20px 20px 0 20px;
-            padding: 15px;
+            padding: 5px;
             margin: 15px 0;
             max-width: 90%;
             float: right;
@@ -370,7 +370,7 @@ def ai_chat_interface():
             background: var(--card);
             color: var(--text);
             border-radius: 18px 18px 18px 0;
-            padding: 15px;
+            padding: 5px;
             margin: 15px 0;
             max-width: 80%;
             float: left;
@@ -407,7 +407,7 @@ def ai_chat_interface():
             color: var(--text) !important;
             border: 1px solid var(--border) !important;
             border-radius: 16px !important;
-            padding: 12px 15px !important;
+            padding: 10px 10px !important;
         }}
         
         .stChatInput button {{
@@ -418,7 +418,7 @@ def ai_chat_interface():
         .welcome-card {{
             background: var(--card);
             border-radius: 16px;
-            padding: 25px;
+            padding: 15px;
             border: 1px solid var(--border);
             margin-bottom: 20px;
         }}
@@ -426,7 +426,7 @@ def ai_chat_interface():
     """, unsafe_allow_html=True)
     
     # Header with business info
-    col1, col2 = st.columns([0.9, 0.1])
+    col1, col2 = st.columns([0.8, 0.1])
     with col1:
         st.title("3hree.io")
         st.caption("Your AI-Powered Social Media Assistant")
@@ -534,7 +534,7 @@ st.set_page_config(
 )
 
 # Create columns for layout
-col1, col2 = st.columns([1, 3])
+col1, col2 = st.columns([0.5, 1.5])
 
 # Sidebar for business info and authentication
 with col1:
