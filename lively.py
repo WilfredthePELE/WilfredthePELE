@@ -347,7 +347,7 @@ def ai_chat_interface():
         .chat-container {{
             max-height: 70vh;
             overflow-y: auto;
-            width: 100%;
+            width: 200%;
             padding: 20px;
             border-radius: 19px;
             background: var(--card);
