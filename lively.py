@@ -345,10 +345,10 @@ def ai_chat_interface():
         }}
         
         .chat-container {{
-            max-height: 65vh;
+            max-height: 70vh;
             overflow-y: auto;
             padding: 20px;
-            border-radius: 16px;
+            border-radius: 19px;
             background: var(--card);
             margin-bottom: 20px;
             border: 1px solid var(--border);
@@ -357,10 +357,10 @@ def ai_chat_interface():
         .user-message {{
             background: linear-gradient(45deg, var(--primary), var(--secondary));
             color: white;
-            border-radius: 18px 18px 0 18px;
+            border-radius: 20px 20px 0 20px;
             padding: 15px;
             margin: 15px 0;
-            max-width: 80%;
+            max-width: 90%;
             float: right;
             clear: both;
         }}
@@ -387,10 +387,12 @@ def ai_chat_interface():
             width: 30px;
             height: 30px;
             border-radius: 50%;
-            object-fit: cover;
+            object-fit: contain;
             margin-right: 10px;
-            border: 2px solid var(--primary);
+            border: none;
+            background: transparent;
         }}
+
         
         .message-timestamp {{
             font-size: 0.75rem;
