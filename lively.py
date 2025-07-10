@@ -347,6 +347,7 @@ def ai_chat_interface():
         .chat-container {{
             max-height: 70vh;
             overflow-y: auto;
+            width: 100%;
             padding: 20px;
             border-radius: 19px;
             background: var(--card);
@@ -425,7 +426,7 @@ def ai_chat_interface():
     """, unsafe_allow_html=True)
     
     # Header with business info
-    col1, col2 = st.columns([0.1, 0.9])
+    col1, col2 = st.columns([0.9, 0.1])
     with col1:
         st.title("3hree.io")
         st.caption("Your AI-Powered Social Media Assistant")
