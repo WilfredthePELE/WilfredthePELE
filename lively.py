@@ -348,7 +348,7 @@ def ai_chat_interface():
             max-height: 70vh;
             overflow-y: auto;
             width: 200%;
-            padding: 10px;
+            padding: 1px;
             border-radius: 19px;
             background: var(--card);
             margin-bottom: 20px;
@@ -359,7 +359,7 @@ def ai_chat_interface():
             background: linear-gradient(45deg, var(--primary), var(--secondary));
             color: white;
             border-radius: 20px 20px 0 20px;
-            padding: 5px;
+            padding: 1px;
             margin: 15px 0;
             max-width: 90%;
             float: right;
@@ -370,7 +370,7 @@ def ai_chat_interface():
             background: var(--card);
             color: var(--text);
             border-radius: 18px 18px 18px 0;
-            padding: 3px;
+            padding: 1px;
             margin: 15px 0;
             max-width: 80%;
             float: left;
@@ -418,7 +418,7 @@ def ai_chat_interface():
         .welcome-card {{
             background: var(--card);
             border-radius: 16px;
-            padding: 15px;
+            padding: 2px;
             border: 1px solid var(--border);
             margin-bottom: 20px;
         }}
