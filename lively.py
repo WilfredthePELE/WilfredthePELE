@@ -425,7 +425,7 @@ def ai_chat_interface():
     """, unsafe_allow_html=True)
     
     # Header with business info
-    col1, col2 = st.columns([0.9, 0.1])
+    col1, col2 = st.columns([0.1, 0.9])
     with col1:
         st.title("3hree.io")
         st.caption("Your AI-Powered Social Media Assistant")
@@ -533,7 +533,7 @@ st.set_page_config(
 )
 
 # Create columns for layout
-col1, col2 = st.columns([1, 3])
+col1, col2 = st.columns([1, 4])
 
 # Sidebar for business info and authentication
 with col1:
