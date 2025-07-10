@@ -33,7 +33,7 @@ def init_session_state():
 
 init_session_state()
 
-st.image("logo33.png", width=120)
+st.image("logo33.png", width=99)
 
 # --- Configuration ---
 GOOGLE_API_KEY = "YOUR_GOOGLE_API_KEY"  # Replace with your key
@@ -370,7 +370,7 @@ def ai_chat_interface():
             background: var(--card);
             color: var(--text);
             border-radius: 18px 18px 18px 0;
-            padding: 5px;
+            padding: 3px;
             margin: 15px 0;
             max-width: 80%;
             float: left;
