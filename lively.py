@@ -533,7 +533,7 @@ st.set_page_config(
 )
 
 # Create columns for layout
-col1, col2 = st.columns([1, 4])
+col1, col2 = st.columns([1, 3])
 
 # Sidebar for business info and authentication
 with col1:
