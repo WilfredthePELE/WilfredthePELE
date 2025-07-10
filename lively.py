@@ -46,7 +46,7 @@ PLATFORMS = {
         "token_url": "https://graph.facebook.com/v19.0/oauth/access_token",
         "userinfo_url": "https://graph.facebook.com/me",
         "scope": "pages_manage_posts,pages_read_engagement",
-        "icon_path": "facebook_icon.jpg"
+        "icon_path": "facebook.png"
     },
     "Twitter": {
         "client_id": "1058767741572792320-o9pxvoLMlrJsIDF8ZgY18NNsnRrJkR",
@@ -55,7 +55,7 @@ PLATFORMS = {
         "token_url": "https://api.twitter.com/2/oauth2/token",
         "userinfo_url": "https://api.twitter.com/2/users/me",
         "scope": "tweet.read tweet.write users.read offline.access",
-        "icon_path": "twitter_icon.jpg"
+        "icon_path": "x.png"
     },
     "Instagram": {
         "client_id": "1423783978963836",
@@ -64,7 +64,7 @@ PLATFORMS = {
         "token_url": "https://api.instagram.com/oauth/access_token",
         "userinfo_url": "https://graph.instagram.com/me",
         "scope": "user_profile,user_media",
-        "icon_path": "instagram_icon.jpg"
+        "icon_path": "instagram.png"
     }
 }
 
